@@ -16,6 +16,7 @@
     background: color($colors, primary);
     color: color($colors, light);
     margin-top: 30px;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .toolbar-title {
@@ -24,4 +25,28 @@
 
 .tabs-md .tab-button-icon {
     color: #ccc;
+}
+
+.temp {
+    font-size: 90px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.location,
+.icon,
+.desc {
+    text-align: center;
+}
+
+.icon img {
+    width: 100px;
+}
+
+.location {
+    font-size: 40px;
+}
+
+.desc {
+    font-size: 30px;
 }
