@@ -12,8 +12,8 @@ import { Http } from '@angular/http';
 @Injectable()
 export class WeatherProvider {
 
- private apiKey:string = '5045034cd115291b';
- private url:string;
+ private apiKey= '5045034cd115291b';
+ private url;
  
 
   constructor(public http: Http) {
@@ -22,10 +22,11 @@ export class WeatherProvider {
   }
 
 
-  getWeather(city,state){
-    
-    return this.http.get(this.url+'/'+state+'/'+city+'.json')
+  getWeather(city,country){
+
+    return this.http.get(this.url+'/'+country+'/'+city+'.json')
     .map(res => res.json());
+ 
   }
 
 }
