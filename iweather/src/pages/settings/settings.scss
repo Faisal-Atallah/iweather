@@ -1,3 +1,9 @@
 page-settings {
-
+    .settings {
+        background-color: color($colors, primary);
+        font-family: 'Rajdhani', sans-serif;
+        button {
+            background-color: color($colors, secondary);
+        }
+    }
 }
